@@ -1,0 +1,77 @@
+
+:root {
+--color-primary:rgb(0,121,194);   /*HH Blue */
+--color-background:rgb(255,255,255);/* valkoinen */
+--color-surface:rgb(245,245,245);   /* vaalea harmaa*/
+--color-text:rgb(50,50,50); /* tumma harmaa */
+--color-text-secondary:rgb(255,255,255); /*valkoinen*/
+  }
+
+body {
+    margin:0;
+    color:var(--color-text);
+    background-color:var(--color-background);
+    font-family: 'Roboto',sans-serif;
+  }
+
+header  a {
+    font-size: 3em;
+    color:var(--color-primary);
+    text-decoration: none;
+    margin-left:10px
+  }
+
+main {padding:10px 10px 40px 10px;}
+
+h1 {color:var(--color-primary);
+    margin-top:0px}
+
+h1 img {
+    width: 50px; 
+    vertical-align: middle;
+  }
+
+h2 {
+    text-align:center
+  }
+
+.coloraccent {color:var(--color-primary)}
+
+.quote {
+    border-left:var(--color-primary) solid 5px;
+    padding-left: 20px;
+    padding-top:5px;
+    padding-bottom:5px}
+
+.cafe {
+    width: 100%; 
+    max-width:300px; 
+    display:block; 
+    margin:auto; 
+    border-radius:10px
+  }
+
+  button {
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+.important {
+    background-color: #ffd6e5;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.blue-text {
+    color: #0079C2;
+}
+
+.red-text {
+    color: #d00000;
+}
+
+
+
